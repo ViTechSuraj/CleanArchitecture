@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "hTUBDyOVNuQ=",
+  "success": true,
+  "projectFilePath": "O:\\SP Workspace\\Surya Medicare\\New folder\\MyApp.Core\\MyApp.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\smart\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

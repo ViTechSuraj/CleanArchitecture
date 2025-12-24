@@ -1,0 +1,34 @@
+O:\SP Workspace\Surya Medicare\MyApp.API\MyApp.Infrastructure\bin\Debug\net8.0\MyApp.Infrastructure.deps.json
+O:\SP Workspace\Surya Medicare\MyApp.API\MyApp.Infrastructure\bin\Debug\net8.0\MyApp.Infrastructure.dll
+O:\SP Workspace\Surya Medicare\MyApp.API\MyApp.Infrastructure\bin\Debug\net8.0\MyApp.Infrastructure.pdb
+O:\SP Workspace\Surya Medicare\MyApp.API\MyApp.Infrastructure\bin\Debug\net8.0\MyApp.Application.dll
+O:\SP Workspace\Surya Medicare\MyApp.API\MyApp.Infrastructure\bin\Debug\net8.0\MyApp.Core.dll
+O:\SP Workspace\Surya Medicare\MyApp.API\MyApp.Infrastructure\bin\Debug\net8.0\MyApp.Application.pdb
+O:\SP Workspace\Surya Medicare\MyApp.API\MyApp.Infrastructure\bin\Debug\net8.0\MyApp.Core.pdb
+O:\SP Workspace\Surya Medicare\MyApp.API\MyApp.Infrastructure\obj\Debug\net8.0\MyApp.Infrastructure.csproj.AssemblyReference.cache
+O:\SP Workspace\Surya Medicare\MyApp.API\MyApp.Infrastructure\obj\Debug\net8.0\MyApp.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+O:\SP Workspace\Surya Medicare\MyApp.API\MyApp.Infrastructure\obj\Debug\net8.0\MyApp.Infrastructure.AssemblyInfoInputs.cache
+O:\SP Workspace\Surya Medicare\MyApp.API\MyApp.Infrastructure\obj\Debug\net8.0\MyApp.Infrastructure.AssemblyInfo.cs
+O:\SP Workspace\Surya Medicare\MyApp.API\MyApp.Infrastructure\obj\Debug\net8.0\MyApp.Infrastructure.csproj.CoreCompileInputs.cache
+O:\SP Workspace\Surya Medicare\MyApp.API\MyApp.Infrastructure\obj\Debug\net8.0\MyApp.In.4513676F.Up2Date
+O:\SP Workspace\Surya Medicare\MyApp.API\MyApp.Infrastructure\obj\Debug\net8.0\MyApp.Infrastructure.dll
+O:\SP Workspace\Surya Medicare\MyApp.API\MyApp.Infrastructure\obj\Debug\net8.0\refint\MyApp.Infrastructure.dll
+O:\SP Workspace\Surya Medicare\MyApp.API\MyApp.Infrastructure\obj\Debug\net8.0\MyApp.Infrastructure.pdb
+O:\SP Workspace\Surya Medicare\MyApp.API\MyApp.Infrastructure\obj\Debug\net8.0\ref\MyApp.Infrastructure.dll
+O:\SP Workspace\Surya Medicare\New folder\MyApp.Infrastructure\bin\Debug\net8.0\MyApp.Infrastructure.deps.json
+O:\SP Workspace\Surya Medicare\New folder\MyApp.Infrastructure\bin\Debug\net8.0\MyApp.Infrastructure.dll
+O:\SP Workspace\Surya Medicare\New folder\MyApp.Infrastructure\bin\Debug\net8.0\MyApp.Infrastructure.pdb
+O:\SP Workspace\Surya Medicare\New folder\MyApp.Infrastructure\bin\Debug\net8.0\MyApp.Application.dll
+O:\SP Workspace\Surya Medicare\New folder\MyApp.Infrastructure\bin\Debug\net8.0\MyApp.Core.dll
+O:\SP Workspace\Surya Medicare\New folder\MyApp.Infrastructure\bin\Debug\net8.0\MyApp.Application.pdb
+O:\SP Workspace\Surya Medicare\New folder\MyApp.Infrastructure\bin\Debug\net8.0\MyApp.Core.pdb
+O:\SP Workspace\Surya Medicare\New folder\MyApp.Infrastructure\obj\Debug\net8.0\MyApp.Infrastructure.csproj.AssemblyReference.cache
+O:\SP Workspace\Surya Medicare\New folder\MyApp.Infrastructure\obj\Debug\net8.0\MyApp.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+O:\SP Workspace\Surya Medicare\New folder\MyApp.Infrastructure\obj\Debug\net8.0\MyApp.Infrastructure.AssemblyInfoInputs.cache
+O:\SP Workspace\Surya Medicare\New folder\MyApp.Infrastructure\obj\Debug\net8.0\MyApp.Infrastructure.AssemblyInfo.cs
+O:\SP Workspace\Surya Medicare\New folder\MyApp.Infrastructure\obj\Debug\net8.0\MyApp.Infrastructure.csproj.CoreCompileInputs.cache
+O:\SP Workspace\Surya Medicare\New folder\MyApp.Infrastructure\obj\Debug\net8.0\MyApp.In.4513676F.Up2Date
+O:\SP Workspace\Surya Medicare\New folder\MyApp.Infrastructure\obj\Debug\net8.0\MyApp.Infrastructure.dll
+O:\SP Workspace\Surya Medicare\New folder\MyApp.Infrastructure\obj\Debug\net8.0\refint\MyApp.Infrastructure.dll
+O:\SP Workspace\Surya Medicare\New folder\MyApp.Infrastructure\obj\Debug\net8.0\MyApp.Infrastructure.pdb
+O:\SP Workspace\Surya Medicare\New folder\MyApp.Infrastructure\obj\Debug\net8.0\ref\MyApp.Infrastructure.dll
