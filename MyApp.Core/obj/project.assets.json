@@ -66,11 +66,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "O:\\SP Workspace\\Surya Medicare\\New folder\\MyApp.Core\\MyApp.Core.csproj",
+      "projectUniqueName": "O:\\SP Workspace\\Surya Medicare\\GitConfig\\CleanArchitecture\\MyApp.Core\\MyApp.Core.csproj",
       "projectName": "MyApp.Core",
-      "projectPath": "O:\\SP Workspace\\Surya Medicare\\New folder\\MyApp.Core\\MyApp.Core.csproj",
+      "projectPath": "O:\\SP Workspace\\Surya Medicare\\GitConfig\\CleanArchitecture\\MyApp.Core\\MyApp.Core.csproj",
       "packagesPath": "C:\\Users\\smart\\.nuget\\packages\\",
-      "outputPath": "O:\\SP Workspace\\Surya Medicare\\New folder\\MyApp.Core\\obj\\",
+      "outputPath": "O:\\SP Workspace\\Surya Medicare\\GitConfig\\CleanArchitecture\\MyApp.Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

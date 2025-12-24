@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "O:\\SP Workspace\\Surya Medicare\\New folder\\MyApp.API\\MyApp.Api.csproj": {}
+    "O:\\SP Workspace\\Surya Medicare\\GitConfig\\CleanArchitecture\\MyApp.API\\MyApp.Api.csproj": {}
   },
   "projects": {
-    "O:\\SP Workspace\\Surya Medicare\\New folder\\MyApp.API\\MyApp.Api.csproj": {
+    "O:\\SP Workspace\\Surya Medicare\\GitConfig\\CleanArchitecture\\MyApp.API\\MyApp.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "O:\\SP Workspace\\Surya Medicare\\New folder\\MyApp.API\\MyApp.Api.csproj",
+        "projectUniqueName": "O:\\SP Workspace\\Surya Medicare\\GitConfig\\CleanArchitecture\\MyApp.API\\MyApp.Api.csproj",
         "projectName": "MyApp.Api",
-        "projectPath": "O:\\SP Workspace\\Surya Medicare\\New folder\\MyApp.API\\MyApp.Api.csproj",
+        "projectPath": "O:\\SP Workspace\\Surya Medicare\\GitConfig\\CleanArchitecture\\MyApp.API\\MyApp.Api.csproj",
         "packagesPath": "C:\\Users\\smart\\.nuget\\packages\\",
-        "outputPath": "O:\\SP Workspace\\Surya Medicare\\New folder\\MyApp.API\\obj\\",
+        "outputPath": "O:\\SP Workspace\\Surya Medicare\\GitConfig\\CleanArchitecture\\MyApp.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,11 +32,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "O:\\SP Workspace\\Surya Medicare\\New folder\\MyApp.Application\\MyApp.Application.csproj": {
-                "projectPath": "O:\\SP Workspace\\Surya Medicare\\New folder\\MyApp.Application\\MyApp.Application.csproj"
+              "O:\\SP Workspace\\Surya Medicare\\GitConfig\\CleanArchitecture\\MyApp.Application\\MyApp.Application.csproj": {
+                "projectPath": "O:\\SP Workspace\\Surya Medicare\\GitConfig\\CleanArchitecture\\MyApp.Application\\MyApp.Application.csproj"
               },
-              "O:\\SP Workspace\\Surya Medicare\\New folder\\MyApp.Infrastructure\\MyApp.Infrastructure.csproj": {
-                "projectPath": "O:\\SP Workspace\\Surya Medicare\\New folder\\MyApp.Infrastructure\\MyApp.Infrastructure.csproj"
+              "O:\\SP Workspace\\Surya Medicare\\GitConfig\\CleanArchitecture\\MyApp.Infrastructure\\MyApp.Infrastructure.csproj": {
+                "projectPath": "O:\\SP Workspace\\Surya Medicare\\GitConfig\\CleanArchitecture\\MyApp.Infrastructure\\MyApp.Infrastructure.csproj"
               }
             }
           }
@@ -85,14 +85,14 @@
         }
       }
     },
-    "O:\\SP Workspace\\Surya Medicare\\New folder\\MyApp.Application\\MyApp.Application.csproj": {
+    "O:\\SP Workspace\\Surya Medicare\\GitConfig\\CleanArchitecture\\MyApp.Application\\MyApp.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "O:\\SP Workspace\\Surya Medicare\\New folder\\MyApp.Application\\MyApp.Application.csproj",
+        "projectUniqueName": "O:\\SP Workspace\\Surya Medicare\\GitConfig\\CleanArchitecture\\MyApp.Application\\MyApp.Application.csproj",
         "projectName": "MyApp.Application",
-        "projectPath": "O:\\SP Workspace\\Surya Medicare\\New folder\\MyApp.Application\\MyApp.Application.csproj",
+        "projectPath": "O:\\SP Workspace\\Surya Medicare\\GitConfig\\CleanArchitecture\\MyApp.Application\\MyApp.Application.csproj",
         "packagesPath": "C:\\Users\\smart\\.nuget\\packages\\",
-        "outputPath": "O:\\SP Workspace\\Surya Medicare\\New folder\\MyApp.Application\\obj\\",
+        "outputPath": "O:\\SP Workspace\\Surya Medicare\\GitConfig\\CleanArchitecture\\MyApp.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -113,8 +113,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "O:\\SP Workspace\\Surya Medicare\\New folder\\MyApp.Core\\MyApp.Core.csproj": {
-                "projectPath": "O:\\SP Workspace\\Surya Medicare\\New folder\\MyApp.Core\\MyApp.Core.csproj"
+              "O:\\SP Workspace\\Surya Medicare\\GitConfig\\CleanArchitecture\\MyApp.Core\\MyApp.Core.csproj": {
+                "projectPath": "O:\\SP Workspace\\Surya Medicare\\GitConfig\\CleanArchitecture\\MyApp.Core\\MyApp.Core.csproj"
               }
             }
           }
@@ -160,14 +160,14 @@
         }
       }
     },
-    "O:\\SP Workspace\\Surya Medicare\\New folder\\MyApp.Core\\MyApp.Core.csproj": {
+    "O:\\SP Workspace\\Surya Medicare\\GitConfig\\CleanArchitecture\\MyApp.Core\\MyApp.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "O:\\SP Workspace\\Surya Medicare\\New folder\\MyApp.Core\\MyApp.Core.csproj",
+        "projectUniqueName": "O:\\SP Workspace\\Surya Medicare\\GitConfig\\CleanArchitecture\\MyApp.Core\\MyApp.Core.csproj",
         "projectName": "MyApp.Core",
-        "projectPath": "O:\\SP Workspace\\Surya Medicare\\New folder\\MyApp.Core\\MyApp.Core.csproj",
+        "projectPath": "O:\\SP Workspace\\Surya Medicare\\GitConfig\\CleanArchitecture\\MyApp.Core\\MyApp.Core.csproj",
         "packagesPath": "C:\\Users\\smart\\.nuget\\packages\\",
-        "outputPath": "O:\\SP Workspace\\Surya Medicare\\New folder\\MyApp.Core\\obj\\",
+        "outputPath": "O:\\SP Workspace\\Surya Medicare\\GitConfig\\CleanArchitecture\\MyApp.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -231,14 +231,14 @@
         }
       }
     },
-    "O:\\SP Workspace\\Surya Medicare\\New folder\\MyApp.Infrastructure\\MyApp.Infrastructure.csproj": {
+    "O:\\SP Workspace\\Surya Medicare\\GitConfig\\CleanArchitecture\\MyApp.Infrastructure\\MyApp.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "O:\\SP Workspace\\Surya Medicare\\New folder\\MyApp.Infrastructure\\MyApp.Infrastructure.csproj",
+        "projectUniqueName": "O:\\SP Workspace\\Surya Medicare\\GitConfig\\CleanArchitecture\\MyApp.Infrastructure\\MyApp.Infrastructure.csproj",
         "projectName": "MyApp.Infrastructure",
-        "projectPath": "O:\\SP Workspace\\Surya Medicare\\New folder\\MyApp.Infrastructure\\MyApp.Infrastructure.csproj",
+        "projectPath": "O:\\SP Workspace\\Surya Medicare\\GitConfig\\CleanArchitecture\\MyApp.Infrastructure\\MyApp.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\smart\\.nuget\\packages\\",
-        "outputPath": "O:\\SP Workspace\\Surya Medicare\\New folder\\MyApp.Infrastructure\\obj\\",
+        "outputPath": "O:\\SP Workspace\\Surya Medicare\\GitConfig\\CleanArchitecture\\MyApp.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -259,8 +259,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "O:\\SP Workspace\\Surya Medicare\\New folder\\MyApp.Application\\MyApp.Application.csproj": {
-                "projectPath": "O:\\SP Workspace\\Surya Medicare\\New folder\\MyApp.Application\\MyApp.Application.csproj"
+              "O:\\SP Workspace\\Surya Medicare\\GitConfig\\CleanArchitecture\\MyApp.Application\\MyApp.Application.csproj": {
+                "projectPath": "O:\\SP Workspace\\Surya Medicare\\GitConfig\\CleanArchitecture\\MyApp.Application\\MyApp.Application.csproj"
               }
             }
           }

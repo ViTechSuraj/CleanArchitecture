@@ -28,6 +28,7 @@ namespace MyApp.Infrastructure.Repositories
         }
         public async Task AddAsync(CSharpCornerArticle article)
         {
+
             await _db.Database.ExecuteSqlRawAsync(
                 "CALL sp_InsertArticle({0}, {1}, {2})",
                 article.Title,

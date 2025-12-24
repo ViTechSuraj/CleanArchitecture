@@ -1,0 +1,91 @@
+## =========================
+## OS / Editor files
+## =========================
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## =========================
+## Build results
+## =========================
+bin/
+obj/
+out/
+
+## =========================
+## .NET Core
+## =========================
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+## =========================
+## User secrets / configs
+## =========================
+appsettings.Development.json
+appsettings.Local.json
+secrets.json
+
+## =========================
+## Logs
+## =========================
+*.log
+logs/
+Logs/
+
+## =========================
+## Publish output
+## =========================
+publish/
+wwwroot/
+
+## =========================
+## EF Core
+## =========================
+Migrations/*.cs
+!Migrations/*Snapshot.cs
+
+## =========================
+## Packages
+## =========================
+packages/
+*.nupkg
+*.snupkg
+
+## =========================
+## Docker
+## =========================
+Dockerfile*
+docker-compose*
+.dockerignore
+
+## =========================
+## Node / Frontend (if any)
+## =========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+## =========================
+## Coverage / Test results
+## =========================
+TestResults/
+coverage/
+coverage.cobertura.xml
+
+## =========================
+## Environment files
+## =========================
+.env
+.env.*
+
+## =========================
+## Others
+## =========================
+_ReSharper*/
+*.DotSettings.user
