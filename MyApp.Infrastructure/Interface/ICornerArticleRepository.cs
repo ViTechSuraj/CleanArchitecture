@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace MyApp.Core.Interface
 {
-    public interface IEmpolyeeRepository
+    public interface ICornerArticleRepository
     {
         Task<IEnumerable<CSharpCornerArticle>> GetAllAsync();
         Task AddAsync(CSharpCornerArticle article);

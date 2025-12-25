@@ -4,6 +4,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.DependencyInjection.Extensions;
 using MyApp.Core.Interface;
 using MyApp.Infrastructure.Data;
+using MyApp.Infrastructure.Interface;
 using MyApp.Infrastructure.Repositories;
 using System;
 using System.Collections.Generic;
@@ -29,8 +30,8 @@ namespace MyApp.Infrastructure
             );
 
 
-            services.TryAddTransient<IEmpolyeeRepository, EmpolyeeRepositorory>();
-
+            services.AddScoped<ICornerArticleRepository, CornerArticleRepositorory>();
+            services.AddScoped<IEmployeeRepository, EmployeeRepository>();
             return services;
         }
     }

@@ -34,9 +34,6 @@
             "projectReferences": {
               "O:\\SP Workspace\\Surya Medicare\\GitConfig\\CleanArchitecture\\MyApp.Application\\MyApp.Application.csproj": {
                 "projectPath": "O:\\SP Workspace\\Surya Medicare\\GitConfig\\CleanArchitecture\\MyApp.Application\\MyApp.Application.csproj"
-              },
-              "O:\\SP Workspace\\Surya Medicare\\GitConfig\\CleanArchitecture\\MyApp.Infrastructure\\MyApp.Infrastructure.csproj": {
-                "projectPath": "O:\\SP Workspace\\Surya Medicare\\GitConfig\\CleanArchitecture\\MyApp.Infrastructure\\MyApp.Infrastructure.csproj"
               }
             }
           }
@@ -113,8 +110,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "O:\\SP Workspace\\Surya Medicare\\GitConfig\\CleanArchitecture\\MyApp.Core\\MyApp.Core.csproj": {
-                "projectPath": "O:\\SP Workspace\\Surya Medicare\\GitConfig\\CleanArchitecture\\MyApp.Core\\MyApp.Core.csproj"
+              "O:\\SP Workspace\\Surya Medicare\\GitConfig\\CleanArchitecture\\MyApp.Infrastructure\\MyApp.Infrastructure.csproj": {
+                "projectPath": "O:\\SP Workspace\\Surya Medicare\\GitConfig\\CleanArchitecture\\MyApp.Infrastructure\\MyApp.Infrastructure.csproj"
               }
             }
           }
@@ -136,6 +133,10 @@
           "targetAlias": "net8.0",
           "dependencies": {
             "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Identity.Core": {
               "target": "Package",
               "version": "[8.0.0, )"
             }
@@ -259,8 +260,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "O:\\SP Workspace\\Surya Medicare\\GitConfig\\CleanArchitecture\\MyApp.Application\\MyApp.Application.csproj": {
-                "projectPath": "O:\\SP Workspace\\Surya Medicare\\GitConfig\\CleanArchitecture\\MyApp.Application\\MyApp.Application.csproj"
+              "O:\\SP Workspace\\Surya Medicare\\GitConfig\\CleanArchitecture\\MyApp.Core\\MyApp.Core.csproj": {
+                "projectPath": "O:\\SP Workspace\\Surya Medicare\\GitConfig\\CleanArchitecture\\MyApp.Core\\MyApp.Core.csproj"
               }
             }
           }

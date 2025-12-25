@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using MyApp.Core.Entities;
+using MyApp.Core.Entities.EmployeeMasterEntites;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,5 +16,6 @@ namespace MyApp.Infrastructure.Data
         }
 
         public DbSet<CSharpCornerArticle> CSharpCornerArticles { get; set; }
+        public DbSet<Employee> Employees { get; set; }
     }
 }

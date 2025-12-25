@@ -1,9 +1,9 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using MyApp.Application.Interfaces;
 using MyApp.Core.Entities;
-using MyApp.Core.Interface;
-using MyApp.Infrastructure.Repositories;
+
 
 namespace MyApp.Api.Controllers
 {
@@ -11,8 +11,9 @@ namespace MyApp.Api.Controllers
     [ApiController]
     public class TestController : ControllerBase
     {
-        private readonly IEmpolyeeRepository _empRepositories;
-        public TestController(IEmpolyeeRepository empRepositories)
+        private readonly ICornerArticleInterface _empRepositories;
+
+        public TestController(ICornerArticleInterface empRepositories)
         {
             _empRepositories= empRepositories;
         }

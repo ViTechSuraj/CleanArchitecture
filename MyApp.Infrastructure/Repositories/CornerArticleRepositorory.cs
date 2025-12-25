@@ -11,11 +11,11 @@ using System.Threading.Tasks;
 namespace MyApp.Infrastructure.Repositories
 {
 
-    public class EmpolyeeRepositorory : IEmpolyeeRepository
+    public class CornerArticleRepositorory : ICornerArticleRepository
     {
         private readonly ApplicationDbContext _db;
 
-        public EmpolyeeRepositorory(ApplicationDbContext db)
+        public CornerArticleRepositorory(ApplicationDbContext db)
         {
             _db = db;
         }
@@ -28,13 +28,22 @@ namespace MyApp.Infrastructure.Repositories
         }
         public async Task AddAsync(CSharpCornerArticle article)
         {
-
-            await _db.Database.ExecuteSqlRawAsync(
+            try
+            {
+                await _db.Database.ExecuteSqlRawAsync(
                 "CALL sp_InsertArticle({0}, {1}, {2})",
                 article.Title,
                 article.Content,
                 DateTime.Now
-            );
+                );
+            }
+            catch (Exception ex)
+            {
+                throw;
+            }
+
+
+
         }
         public async Task<CSharpCornerArticle?> GetByIdAsync(int id)
         {

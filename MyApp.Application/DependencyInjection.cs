@@ -1,4 +1,10 @@
-﻿using Microsoft.Extensions.DependencyInjection;
+﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.Extensions.DependencyInjection;
+using MyApp.Application.Interfaces;
+using MyApp.Application.Repositories;
+using MyApp.Core.Entities.EmployeeMasterEntites;
+using MyApp.Core.Interface;
+using MyApp.Infrastructure.Repositories;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,7 +17,12 @@ namespace MyApp.Application
     {
         public static IServiceCollection AddApplicationDI(this IServiceCollection service)
         {
-            return service;
+
+
+            service.AddScoped<ICornerArticleInterface, CornerArticleInterface>();
+            service.AddScoped<IEmployeeService, EmployeeService>();
+            service.AddScoped<IPasswordHasher<Employee>, PasswordHasher<Employee>>();
+            return service; 
         }
     }
 }

@@ -1,5 +1,84 @@
 [
   {
+    "ContainingType": "MyApp.Api.Controllers.EmployeeMasterController",
+    "Method": "Create",
+    "RelativePath": "api/EmployeeMaster/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "MyApp.Core.DTOs.EmployeeMasterDtos.CreateEmployeeDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MyApp.Api.Controllers.EmployeeMasterController",
+    "Method": "GetAll",
+    "RelativePath": "api/EmployeeMaster/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MyApp.Api.Controllers.EmployeeMasterController",
+    "Method": "GetById",
+    "RelativePath": "api/EmployeeMaster/GetById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MyApp.Api.Controllers.EmployeeMasterController",
+    "Method": "Login",
+    "RelativePath": "api/EmployeeMaster/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "MyApp.Core.DTOs.LoginDtos.LoginDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MyApp.Api.Controllers.EmployeeMasterController",
+    "Method": "Update",
+    "RelativePath": "api/EmployeeMaster/Update",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "dto",
+        "Type": "MyApp.Core.DTOs.EmployeeMasterDtos.UpdateEmployeeDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "MyApp.Api.Controllers.TestController",
     "Method": "GetAllEmployee",
     "RelativePath": "api/Test/GetAllEmployee",
