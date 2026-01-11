@@ -1,4 +1,5 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
+using MyApp.Core.ApiResponse;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,9 +10,10 @@ namespace MyApp.Core
 {
     public static class DependencyInjection
     {
-        public static IServiceCollection AddCoreDI(this IServiceCollection service)
+        public static IServiceCollection AddCoreDI(this IServiceCollection services)
         {
-            return service;
+           
+            return services;
         }
     }
 }

@@ -21,24 +21,51 @@ namespace MyApp.Infrastructure.Repositories
 
         public async Task<int> CreateAsync(Employee employee)
         {
-            var result = await _context.Database.ExecuteSqlRawAsync(
-                "CALL sp_employee_insert({0},{1},{2},{3},{4},{5},{6},{7},{8})",
-                employee.FirstName,
-                employee.LastName,
-                employee.Gender,
-                employee.PhoneNumber,
-                employee.Email,
-                employee.RoleId,
-                employee.CenterId,
-                employee.Login,
-                employee.Password
-            );
+            try
+            {
+                await _context.Database.ExecuteSqlRawAsync(
+                    "CALL sp_employee_insert({0},{1},{2},{3},{4},{5},{6},{7},{8})",
+                    employee.FirstName,
+                    employee.LastName,
+                    employee.Gender,
+                    employee.PhoneNumber,
+                    employee.Email,
+                    employee.RoleId,
+                    employee.CenterId,
+                    employee.Login,
+                    employee.Password
+                );
 
-            // MySQL me ExecuteSqlRaw se ID directly nahi milti
-            // Isliye login se fetch kar lete hain (safe & clean)
-            var createdEmployee = await GetByLoginAsync(employee.Login);
-            return createdEmployee!.Id;
+                var createdEmployee = await GetByLoginAsync(employee.Login);
+
+                if (createdEmployee == null)
+                {
+                    throw new InvalidOperationException(
+                        "Employee created but unable to retrieve the record."
+                    );
+                }
+
+                return createdEmployee.Id;
+            }
+            catch (DbUpdateException ex)
+            {
+                // 🔐 MySQL duplicate key (login)
+                if (ex.InnerException?.Message.Contains("Duplicate") == true)
+                {
+                    throw new ApplicationException(
+                        "Employee with the same login already exists."
+                    );
+                }
+
+                throw;
+            }
+            catch (Exception)
+            {
+                // Let global middleware handle it
+                throw;
+            }
         }
+
 
         public async Task UpdateAsync(Employee employee)
         {

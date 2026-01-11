@@ -32,6 +32,8 @@ namespace MyApp.Infrastructure
 
             services.AddScoped<ICornerArticleRepository, CornerArticleRepositorory>();
             services.AddScoped<IEmployeeRepository, EmployeeRepository>();
+            services.AddScoped<IRoleRepository, RoleRepository>();
+            services.AddScoped<ICenterRepository, CenterRepository>();
             return services;
         }
     }

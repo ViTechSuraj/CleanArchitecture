@@ -1,5 +1,6 @@
 ﻿using Microsoft.Extensions.Configuration;
 using MyApp.Application;
+using MyApp.Core.ApiResponse;
 using MyApp.Infrastructure;
 
 namespace MyApp.Api
@@ -10,6 +11,7 @@ namespace MyApp.Api
         {
             services.AddApplicationDI()
                 .AddInfrastructureDI(configuration);
+            services.AddScoped<IApiResponseInterface, ApiResponseRepos>();
             return services;
         }
     }

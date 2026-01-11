@@ -4,6 +4,7 @@ using MyApp.Application.Interfaces;
 using MyApp.Application.Repositories;
 using MyApp.Core.Entities.EmployeeMasterEntites;
 using MyApp.Core.Interface;
+using MyApp.Infrastructure.Interface;
 using MyApp.Infrastructure.Repositories;
 using System;
 using System.Collections.Generic;
@@ -15,14 +16,16 @@ namespace MyApp.Application
 {
     public static class DependencyInjection
     {
-        public static IServiceCollection AddApplicationDI(this IServiceCollection service)
+        public static IServiceCollection AddApplicationDI(this IServiceCollection services)
         {
 
 
-            service.AddScoped<ICornerArticleInterface, CornerArticleInterface>();
-            service.AddScoped<IEmployeeService, EmployeeService>();
-            service.AddScoped<IPasswordHasher<Employee>, PasswordHasher<Employee>>();
-            return service; 
+            services.AddScoped<ICornerArticleInterface, CornerArticleInterface>();
+            services.AddScoped<IEmployeeService, EmployeeService>();
+            services.AddScoped<IPasswordHasher<Employee>, PasswordHasher<Employee>>();
+            services.AddScoped<IRoleService, RoleService>();
+            services.AddScoped<ICenterService, CenterService>();
+            return services; 
         }
     }
 }
